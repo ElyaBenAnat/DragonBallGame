@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_f2f2f2"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/top_players"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_txt"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/list_item_score"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>

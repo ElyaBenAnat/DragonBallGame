@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "44138973567",
+    "firebase_url": "https://dragonballz-dd99b.firebaseio.com",
+    "project_id": "dragonballz-dd99b",
+    "storage_bucket": "dragonballz-dd99b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44138973567:android:84c110d528fa5118b1f24a",
+        "android_client_info": {
+          "package_name": "com.dragonball.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44138973567-sli43fnhguor8mgp3vl3o17sbab4iid6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dragonball.demo",
+            "certificate_hash": "5c799c3cc2b7070631225acd169be879300903bd"
+          }
+        },
+        {
+          "client_id": "44138973567-lb9dqb7kh1bib6avolheglk1pmgd6bks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH4ocXdmIa2b4S8fwbbLx5CMZshEUarjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44138973567-lb9dqb7kh1bib6avolheglk1pmgd6bks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

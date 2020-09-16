@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/play_btn"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/play"
+        android:background="@color/gray_A9A9A9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/score_btn"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/play_btn"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@color/gray_A9A9A9"
+        android:text="@string/score"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

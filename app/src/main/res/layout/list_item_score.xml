@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_f2f2f2"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:layout_height="300dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/player_name"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:text="@string/player_name"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="40dp"
+            tools:text="NAME"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/player_score"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_width="wrap_content"
+            android:text="@string/player_name"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="80dp"
+            tools:text="3"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.gms.maps.MapView
+            android:layout_width="180dp"
+            android:layout_gravity="center|bottom"
+            android:layout_height="180dp"
+            android:id="@+id/map"/>
+    </FrameLayout>
+
+</RelativeLayout>
